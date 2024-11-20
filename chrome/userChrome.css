@@ -54,7 +54,7 @@
 /* }  */
 
 
-/* Make all tabs small except selected one */ 
+/* Make all tabs small except selected one  */
 .tabbrowser-tab[fadein]:not([selected]):not([pinned]) { 
     max-width: 150px !important; 
     min-width: 150px !important; 
@@ -66,7 +66,7 @@
     min-width: 200px !important; 
 } 
 
-
+/* Not working with .tabbrowser-tab, #tabs-newtab-button { margin: 3px, 0, 2px, 2px !important; } */
 /* Reduce spacing between pinned and regular tabs */ 
 #tabbrowser-tabs[haspinnedtabs]:not([positionpinnedtabs])>#tabbrowser-arrowscrollbox>.tabbrowser-tab[first-visible-unpinned-tab] { 
     margin-inline-start: initial !important; 
@@ -93,9 +93,10 @@ hbox.tab-content[pinned=true] .tab-text {
 .tabbrowser-tab, #tabs-newtab-button {
   border-radius: 8px !important; 
   height: 50px !important; 
-  margin-top: 3px !important; 
+  margin: 3px, 0, 2px, 2px !important;
+  /* margin-top: 3px !important; 
   margin-left: 2px !important;
-  margin-bottom: 2px !important;
+  margin-bottom: 2px !important; */
   max-height: 80% !important; 
   min-height: 80% !important; 
 } 
