@@ -233,9 +233,20 @@ toolbar#nav-bar {
   padding: 0px !important; 
 } 
 
-#urlbar { 
+/* #urlbar { 
+
   max-width: 70% !important; 
   margin: 0 15% !important; 
+} */
+
+#urlbar-container {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+#urlbar {
+  max-width: 50% !important;
+  margin: 0 !important;
 } 
 
 #urlbar-input:focus { 
