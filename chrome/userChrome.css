@@ -165,9 +165,10 @@ hbox.tab-content[pinned=true] .tab-text {
   text-align: center !important; 
 } 
 
-tracking-protection-icon-container, #identity-box { 
+/* Starts blinking when uncommented */
+/* tracking-protection-icon-container, #identity-box { 
   display: none; 
-} 
+}  */
 
 #back-button > .toolbarbutton-icon{ 
   --backbutton-background: transparent !important; 
